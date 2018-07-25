@@ -4,3 +4,4 @@ crushes << "Harry Styles"
 puts crushes
 
 puts crushes [3]
+puts crushes.length
