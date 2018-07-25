@@ -19,7 +19,7 @@ def guesser
       time = 12
     end
     
-    break
+    
   end
 end
 
