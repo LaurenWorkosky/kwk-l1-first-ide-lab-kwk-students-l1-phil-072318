@@ -10,7 +10,6 @@ def guesser
     guess = gets.chomp.to_i
     time += 1
     elsif guess > 5
-    time = 0 
     puts "sorry, too high! input a number from 1 to 10"
     time += 1
     else
