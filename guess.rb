@@ -1,15 +1,15 @@
 
-def guesser()
+def guesser(number)
   puts "guess the number. input a number from 1 to 10"
   guess = gets.chomp.to_i
   time = 0
   while time < 2
   
-    if guess < 5
+    if guess < number
     puts "sorry, too low! input a number from 1 to 10"
     guess = gets.chomp.to_i
     
-    elsif guess > 5
+    elsif guess > number
     puts "sorry, too high! input a number from 1 to 10"
     guess = gets.chomp.to_i
     
@@ -20,4 +20,4 @@ def guesser()
   end
 end
 
-guesser
+guesser(5)
