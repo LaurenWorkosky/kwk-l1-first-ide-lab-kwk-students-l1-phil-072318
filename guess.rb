@@ -1,5 +1,5 @@
 
-def guesser
+def guesser()
   puts "guess the number. input a number from 1 to 10"
   guess = gets.chomp.to_i
   time = 0
