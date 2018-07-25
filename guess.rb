@@ -11,8 +11,8 @@ def guesser
     time += 1
     elsif
       puts "that's correct!"
-      break
     end
+    break
   end
 end
 
