@@ -16,6 +16,7 @@ def guesser(number)
       puts "that's correct!"
       time = 2
     end
+    
   end
 end
 
