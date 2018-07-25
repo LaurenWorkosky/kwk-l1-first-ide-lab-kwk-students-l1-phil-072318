@@ -12,6 +12,7 @@ def guesser
     elsif guess > 5
     time = 0 
     puts "sorry, too high! input a number from 1 to 10"
+    time += 1
     else
       puts "that's correct!"
     end
