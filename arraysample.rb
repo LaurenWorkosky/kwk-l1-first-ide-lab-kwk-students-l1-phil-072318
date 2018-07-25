@@ -5,3 +5,7 @@ puts crushes
 
 puts crushes [3]
 puts crushes.size
+
+crushes [0] = "Joe Jonas"
+
+puts crushes
